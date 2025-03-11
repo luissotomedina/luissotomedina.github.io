@@ -5,3 +5,30 @@ collection: portfolio
 ---
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
+<h1>Resultados MIDI</h1>
+<p>A continuación se presentan dos ejemplos de generación de MIDI visualizados en un piano-roll.</p>
+
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+
+<midi-visualizer 
+    type="piano-roll" 
+    id="visualizer1" 
+    src="midis/0_generation.mid">
+</midi-visualizer>
+<midi-player 
+    src="midis/0_generation.mid" 
+    sound-font 
+    visualizer="#visualizer1">
+</midi-player>
+
+<midi-visualizer 
+    type="piano-roll" 
+    id="visualizer2" 
+    src="midis/1_generation.mid">
+</midi-visualizer>
+<midi-player 
+    src="midis/1_generation.mid" 
+    sound-font 
+    visualizer="#visualizer2">
+</midi-player>
