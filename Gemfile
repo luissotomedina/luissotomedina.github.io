@@ -1,3 +1,16 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.1'
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'jemoji'
+  gem 'webrick', '~> 1.8'
+end
+
+gem 'github-pages'
+
+# Add these gems to resolve the issues
+gem 'bigdecimal'
+gem 'tzinfo-data'
