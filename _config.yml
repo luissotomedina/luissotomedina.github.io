@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Luis's Homepage"
+title                    : "Luis Soto Medina"
 title_separator          : "-"
 name                     : &name "Luis Soto Medina"
 description              : &description "Passionate about AI, Data, and Technology"
