@@ -1,21 +1,35 @@
 ---
 permalink: /
-title: "Hello there, I'm Luis"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I'm a final year 
+Here is Luis.
 
-My research interests are
+I am a Telecommunications Engineer specializing in acoustic data and AI, with a M.S. in Artificial Intelligence and nearly four years of experience in acoustic data analysis and modeling, using programming as a core tool.
 
-I'm currently working 
+My work focuses on applying machine learning to real-world problems, with a particular interest in generative AI for music. I am a motivated, organized, and responsible team player, eager to tackle complex challenges and drive innovation in data-driven technologies.
 
-I'm also intereseted in 
+If you're interested in my work or potential collaborations, feel free to reach out to me at [luissoto.personal@gmail.com](mailto:luissoto.personal@gmail.com).
 
+## 🎯 Interests
 
-# Selected Experience
+* 🤖 Artificial Intelligence & Machine Learning  
+  * Generative AI & LLMs  
+  * AI applications in audio and music  
+* 📊 Data Science & Analytics  
+  * Data visualization & storytelling  
+  * Automation & process optimization  
+* 🎵 Acoustic Data & Signal Processing  
+  * Environmental noise analysis  
+  * AI-driven sound modeling  
+* 💡 Innovation & Technology  
+  * Cutting-edge AI research  
+  * Open-source contributions & development  
+* 🤝 Teamwork & Leadership  
+  * Agile methodologies  
+  * Problem-solving in high-pressure environments  
 
-## Acoustic Engineer
