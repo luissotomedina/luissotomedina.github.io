@@ -1,21 +1,39 @@
 ---
 title: "KeyEmotions"
-excerpt: "This Master's Thesis develops a deep learning model for generating symbolic music conditioned by emotions based on Russell's model, using an autoregressive transformer. <br/><img src='/images/KeyEmotions2.png'>"
+excerpt: "Autoregressive transformer model for emotion-conditioned symbolic music generation. <br/><img src='/images/KeyEmotions2.png'>"
 collection: portfolio
 ---
 
 <p>
-    Generative music is defined as music created through algorithms capable of producing compositions autonomously. In recent years, this technology has become a valuable tool for musicians and composers in their creative process. In this context, the present Master's Thesis develops a deep learning model capable of generating symbolic music, adapting its creation according to the quadrants of Russell's model of emotions.
+    Generative music, created through autonomous algorithms, has become a transformative tool for composers. This Master's Thesis explores a deep learning model that generates symbolic music dynamically adapted to Russell's emotional quadrants.
 </p>
+
+<div style="display: flex; align-items: center; margin: 20px 0;">
+    <div style="flex: 1;">
+      <img src="/key_emotions/Circumplex_Russell_Model.png" alt="Russell's Circumplex Model" style="max-width: 100%; border: 1px solid #eee; border-radius: 8px;">
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+      <p style="font-size: 0.95em; color: #555;">
+        Emotion Framework: Russell's model categorizes emotions along two axes:<br>
+        • Valence (positive ↔ negative)<br>
+        • Arousal (high energy ↔ low energy).<br>
+        The quadrants define the emotional palette for the generated music.
+      </p>
+    </div>
+ </div>
+
 <p>
-    In this project, following a workflow based on a machine learning pipeline, the process spans from the creation of a MIDI dataset labeled with emotions to its analysis and processing, extracting the key musical features needed to train the model. Additionally, an autoregressive transformer model based on a decoder is designed, trained, and evaluated using both objective and subjective metrics to generate music conditioned by emotions.
+    Through a machine learning pipeline, I curated a labeled MIDI dataset, extracted emotion-relevant features (tempo, harmony, etc.), and designed a transformer model evaluated via both quantitative metrics and listener studies. The work also confronts ethical and legal questions: <em>Can AI be truly creative? Who owns its outputs?</em>  
 </p>
-<p>
-    Additionally, this study explores the ethical and legal implications of AI-generated music, addressing issues such as authorship, creativity and originality, copyright, and cultural appropriation, among others.
-</p>
-<p>
-    Below, you can see a demo of the user interface in action, the generated outputs, and the full thesis in Spanish.
-</p>
+
+<div style="margin: 1.5rem 0;">
+    <a href="/key_emotions/Memoria_Latex_TFM_VIU_09MIAR.pdf" target="_blank" class="btn btn--research">View Full Thesis in Spanish (PDF)</a>
+    <span style="display: inline-block; margin-left: 1rem; font-size: 0.9em; color: #666;">Includes complete technical details and ethical analysis</span>
+</div>
+
+<h1>
+    Demo
+</h1>
 
 <img src="/key_emotions/KeyEmotions_GUI_Demo.gif" alt="KeyEmotions GIF" style="max-width:100%; height:auto; display:block; margin: 20px auto;">
 
@@ -23,7 +41,7 @@ collection: portfolio
 
 <h2> Generated midi</h2>
 
-<h3>Example emotion 1</h3>
+<h3>Excited (High Arousal, Positive Valence)</h3>
 <midi-visualizer 
     type="piano-roll" 
     id="visualizer1" 
@@ -35,7 +53,7 @@ collection: portfolio
     visualizer="#visualizer1">
 </midi-player>
 
-<h3>Example emotion 2</h3>
+<h3>Anger (High Arousal, Negative Valence)</h3>
 <midi-visualizer 
     type="piano-roll" 
     id="visualizer2" 
@@ -47,7 +65,7 @@ collection: portfolio
     visualizer="#visualizer2">
 </midi-player>
 
-<h3>Example emotion 3</h3>
+<h3>Sadness (Low Arousal, Negative Valence)</h3>
 <midi-visualizer 
     type="piano-roll" 
     id="visualizer3" 
@@ -59,7 +77,7 @@ collection: portfolio
     visualizer="#visualizer3">
 </midi-player>
 
-<h3>Example emotion 4</h3>
+<h3>Calm (Low Arousal, Positive Valence)</h3>
 <midi-visualizer 
     type="piano-roll" 
     id="visualizer4" 
@@ -71,9 +89,6 @@ collection: portfolio
     visualizer="#visualizer4">
 </midi-player>
 
-<h2>View Thesis</h2>
-<p>
-    You can <a href="/key_emotions/Memoria_Latex_TFM_VIU_09MIAR.pdf" target="_blank">view the full thesis in Spanish here</a>.
-</p>
+
 
 
