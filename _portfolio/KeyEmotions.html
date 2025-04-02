@@ -1,15 +1,29 @@
 ---
 title: "KeyEmotions"
-excerpt: "This master's thesis explores emotion-conditioned generative AI for symbolic music composition, focusing on the relationship between musical structures and perceived emotions. <br/><img src='/images/KeyEmotions2.png'>"
+excerpt: "This Master's Thesis develops a deep learning model for generating symbolic music conditioned by emotions based on Russell's model, using an autoregressive transformer. <br/><img src='/images/KeyEmotions2.png'>"
 collection: portfolio
 ---
 
-In this project I implemented ...
+<p>
+    Generative music is defined as music created through algorithms capable of producing compositions autonomously. In recent years, this technology has become a valuable tool for musicians and composers in their creative process. In this context, the present Master's Thesis develops a deep learning model capable of generating symbolic music, adapting its creation according to the quadrants of Russell's model of emotions.
+</p>
+<p>
+    In this project, following a workflow based on a machine learning pipeline, the process spans from the creation of a MIDI dataset labeled with emotions to its analysis and processing, extracting the key musical features needed to train the model. Additionally, an autoregressive transformer model based on a decoder is designed, trained, and evaluated using both objective and subjective metrics to generate music conditioned by emotions.
+</p>
+<p>
+    Additionally, this study explores the ethical and legal implications of AI-generated music, addressing issues such as authorship, creativity and originality, copyright, and cultural appropriation, among others.
+</p>
+<p>
+    Below, you can see a demo of the user interface in action, the generated outputs, and the full thesis in Spanish.
+</p>
 
 <img src="/KeyEmotions/KeyEmotions_GUI_Demo.gif" alt="KeyEmotions GIF" style="max-width:100%; height:auto; display:block; margin: 20px auto;">
 
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
 
+<h2> Generated midi</h2>
+
+<h3>Example emotion 1</h3>
 <midi-visualizer 
     type="piano-roll" 
     id="visualizer1" 
@@ -21,6 +35,7 @@ In this project I implemented ...
     visualizer="#visualizer1">
 </midi-player>
 
+<h3>Example emotion 2</h3>
 <midi-visualizer 
     type="piano-roll" 
     id="visualizer2" 
@@ -31,3 +46,34 @@ In this project I implemented ...
     sound-font 
     visualizer="#visualizer2">
 </midi-player>
+
+<h3>Example emotion 3</h3>
+<midi-visualizer 
+    type="piano-roll" 
+    id="visualizer3" 
+    src="/KeyEmotions/3_generation.mid">
+</midi-visualizer>
+<midi-player 
+    src="/KeyEmotions/3_generation.mid" 
+    sound-font 
+    visualizer="#visualizer3">
+</midi-player>
+
+<h3>Example emotion 4</h3>
+<midi-visualizer 
+    type="piano-roll" 
+    id="visualizer4" 
+    src="/KeyEmotions/4_generation.mid">
+</midi-visualizer>
+<midi-player 
+    src="/KeyEmotions/4_generation.mid" 
+    sound-font 
+    visualizer="#visualizer4">
+</midi-player>
+
+<h2>View Thesis</h2>
+<p>
+    You can <a href="/KeyEmotions/Memoria_Latex_TFM_VIU_09MIAR.pdf" target="_blank">view the full thesis in Spanish here</a>.
+</p>
+
+
