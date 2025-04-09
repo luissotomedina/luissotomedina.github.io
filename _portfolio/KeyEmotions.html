@@ -5,29 +5,45 @@ collection: portfolio
 ---
 
 <p>
-    Generative music, created through autonomous algorithms, has become a transformative tool for composers. This Master's Thesis explores a deep learning model that generates symbolic music dynamically adapted to Russell's emotional quadrants.
+    This master's thesis presents the development of an emotion-conditioned symbolic music generation system based on Russell's circumplex model. The research follows a machine learning pipeline methodology, which includes: 
+    <ul>
+        <li>Data collection and annotation</li>
+        <li>Data preprocessing & feature engineering</li>
+        <li>Model architecture design</li>
+        <li>Model training and optimization</li>
+        <li>Quantitative and qualitative evaluation</li>
+    </ul>
+    The work also confronts critical ethical and legal questions in generative AI: <em>Can AI systems be truly creative? Who holds rights to AI-generated musical compositions?</em>
 </p>
 
-<div style="display: flex; align-items: center; margin: 20px 0;">
-    <div style="flex: 1;">
-      <img src="/key_emotions/Circumplex_Russell_Model.png" alt="Russell's Circumplex Model" style="max-width: 100%; border: 1px solid #eee; border-radius: 8px;">
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-      <p style="font-size: 0.95em; color: #555;">
-        Emotion Framework: Russell's model categorizes emotions along two axes:<br>
-        • Valence (positive ↔ negative)<br>
-        • Arousal (high energy ↔ low energy).<br>
-        The quadrants define the emotional palette for the generated music.
-      </p>
-    </div>
- </div>
+<div class="model-container" style="text-align: center;">
+    <figure class="emotion-model" style="display: inline-block; max-width: 65%; margin: 0 auto;">
+        <img src="/key_emotions/Circumplex_Russell_Model.png" 
+             alt="Russell's Circumplex Model"
+             class="model-image"
+             style="width: 100%; height: auto; display: block;">
+        
+        <figcaption class="model-caption" style="width: 100%; margin-top: 15px; text-align: center;">
+            <h3 style="margin-bottom: 12px;">Emotional Framework</h3>
+            <p style="margin: 9px;">
+                <strong>Valence:</strong> Positive ↔ Negative; 
+                <strong>Arousal:</strong> High energy ↔ Low energy
+            </p>
+        </figcaption>
+    </figure>
+</div>
 
 <p>
-    Through a machine learning pipeline, I curated a labeled MIDI dataset, extracted emotion-relevant features (tempo, harmony, etc.), and designed a transformer model evaluated via both quantitative metrics and listener studies. The work also confronts ethical and legal questions: <em>Can AI be truly creative? Who owns its outputs?</em>  
+    The implementation results include: 
+    <ul>
+        <li>A functional demo of the developed graphical user interface</li>
+        <li>Four generated MIDI files by our custom-built autoregressive transformer model</li>
+        <li>Complete thesis documentation (Spanish PDF)</li>
+    </ul>
 </p>
 
 <div style="margin: 1.5rem 0;">
-    <a href="/key_emotions/Memoria_Latex_TFM_VIU_09MIAR.pdf" target="_blank" class="btn btn--research">View Full Thesis in Spanish (PDF)</a>
+    <a href="/key_emotions/Memoria - Luis Soto Medina.pdf" target="_blank" class="btn btn--research">Download Full Thesis (PDF in Spanish)</a>
     <span style="display: inline-block; margin-left: 1rem; font-size: 0.9em; color: #666;">Includes complete technical details and ethical analysis</span>
 </div>
 

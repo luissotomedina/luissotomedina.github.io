@@ -18,12 +18,14 @@ If you're interested in my work or potential collaborations, feel free to reach 
 ## 🎯 Interests
 
 * 🤖 Artificial Intelligence & Machine Learning  
-  * Generative AI & LLMs  
-  * AI applications in audio and music  
-* 📊 Data Science & Analytics  
-  * Data visualization & storytelling  
+  * Generative AI (audio, cross-domain creativity)
+  * Predictive models for business optimization
+  * Edge AI for IoT solutions
+  * Natural Language Processing
+* 📊 Data Science & Analytics 
   * Automation & process optimization  
-* 🎵 Acoustic Data & Signal Processing  
+  * Data visualization   
+* 🔊 Acoustic Data & Signal Processing  
   * Environmental noise analysis  
   * AI-driven sound modeling  
 * 💡 Innovation & Technology  

@@ -35,19 +35,18 @@ redirect_from:
   
 Skills
 ======
-* 🐍 Python Programming
-* 🤖 AI and Machine Learning
-  * PyTorch
-  * TensorFlow
-  * Generative AI and LLMs
-* 📊 Data Visualization
-  * Seaborn
-  * Matplotlib
-  * Power Bi
-* 💻 Data Analysis and Automation
+* 🐍 **Python Programming**
+* 🤖 **AI & Machine Learning**
+  * Frameworks: PyTorch, TensorFlow
+  * Generative AI 
+* 📊 **Data Analysis & Visualization**
+  * Manipulation: Pandas, NumPy
+  * Visualization: Seaborn, Matplotlib, Power BI
+* 💻 **Data Engineering**
   * Custom Scripts for Data Processing
-* 🤝 Collaboration and Leadership
-  * Teamwork
+  * API Integrations
+* 🤝 **Collaboration & Leadership**
+  * Team Coordination
   * Working under Pressure
 
 Additional Training
@@ -73,4 +72,7 @@ Additonal Activities
 * Intensive English Course, Lancing (UK) – 67 hours (3 weeks), 2014
 * First Lego League Referee, Polytechnic University of Madrid (Spain), 2018–2020
 
-[📄 Download CV](/files/cv.pdf)
+
+<div style="margin: 1.5rem 0;">
+    <a href="/files/cv.pdf" target="_blank" class="btn btn--research">Download Full Curriculum Vitae</a>
+</div>
