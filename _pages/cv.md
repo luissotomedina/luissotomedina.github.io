@@ -12,7 +12,7 @@ redirect_from:
 🎓 Education
 ======
 * M.S. in Artificial Intelligence, Valencia International University, 2025 (expected)
-  * Final Project. KeyEmotions: Development of a generative symbolic music AI conditioned by emotions
+  * Final Project. KeyEmotions: Development of a generative symbolic music AI conditioned by emotions (Grade: 9/10).
 * B.S. in Telecommunications Engineering (Sound and Image), Polytechnic University of Madrid, 2021
   * Final Project. “Station for the Remote Measurement of the Acoustic Contamination with Raspberry Pi” (Grade: 10/10, proposed for honors).
 * High School Diploma in Music (Traverse Flute), Ángel Barrios Professional Music School, 2019
