@@ -11,27 +11,27 @@ redirect_from:
 
 🎓 Education
 ======
-* M.S. in Artificial Intelligence, Valencia International University, 2025 (expected)
+* M.S. in Artificial Intelligence, Valencia International University, 2025.
   * Final Project. KeyEmotions: Development of a generative symbolic music AI conditioned by emotions (Grade: 9/10).
-* B.S. in Telecommunications Engineering (Sound and Image), Polytechnic University of Madrid, 2021
+* B.S. in Telecommunications Engineering (Sound and Image), Polytechnic University of Madrid, 2021.
   * Final Project. “Station for the Remote Measurement of the Acoustic Contamination with Raspberry Pi” (Grade: 10/10, proposed for honors).
-* High School Diploma in Music (Traverse Flute), Ángel Barrios Professional Music School, 2019
+* High School Diploma in Music (Traverse Flute), Ángel Barrios Professional Music School, 2019.
 
 📍 Work Experience
 ======
-* 2021 - Present: Acoustic Engineer, Envirosuite
-  * Analyzed and processed historical noise data from Madrid using Python
-  * Integrated the Omnis environmental management tool into Madrid City Hall
-  * Designed and implemented real-time monitoring for 50 stations using Power BI
-  * Led the digitalization and optimization of environmental processes
-  * Developed the 2021 strategic noise map for road and railway noise
-  * Contributed to the development of the 2024 noise action plan
+* 2021 - Present: Support Engineer, Envirosuite
+  * Developed and maintained Python-based pipelines to analyze and process large-scale historical noise datasets for the city of Madrid.
+  * Integrated Envirosuite's Omnis platform with municipal systems, enabling automated environmental monitoring and streamlined data workflows.
+  * Designed and deployed a real-time monitoring dashboard in Power BI, covering 50+ sensor stations for noise data visualization.
+  * Led the digital transformation of environmental reporting processes, improving efficiency, data accuracy, and scalability.
+  * Contributed to the design of Madrid's 2021 strategic noise map.
+  * Supported the planning and development of the city's 2024 noise action plan.
   * 🏆 Recognition: In the second half of 2022, awarded as the best employee in Europe (EMEA region) for outstanding performance within Envirosuite
 
 * 2019 - 2020: Intern, Repsol (E&P Digitalisation Department)
-  * Managed AI projects following Agile methodologies
-  * Provided guidance on machine learning evaluation metrics
-  * Designed and implemented the department’s cost model
+  * Assisted in managing technological and AI projects, leveraging Agile methodologies to support efficient planning, execution, and delivery.
+  * Advised on selecting and evaluating of machine learning metrics to optimize model performance and accuracy.
+  * Designed and implemented a cost model for the department, streamlining budgeting and resource allocation processes.
   
 Skills
 ======

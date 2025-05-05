@@ -9,9 +9,9 @@ redirect_from:
 
 Here is Luis.
 
-I am a Telecommunications Engineer specializing in acoustic data and AI, with a M.S. in Artificial Intelligence and nearly four years of experience in acoustic data analysis and modeling, using programming as a core tool.
+I'm a Telecommunications Engineer with an M.S. in Artificial Intelligence, specializing in acoustic data analysis, modeling, and machine learning. With nearly four years of experience using programming as a core problem-solving tool, I focus on turning complex, real-world challenges into data-driven solutions.
 
-My work focuses on applying machine learning to real-world problems, with a particular interest in generative AI. I am a motivated, organized, and responsible team player, always curious and excited to dive into tough problems and find creative solutions though data-drive technologies.
+I'm particularly interested in generative AI and the practical application of machine learning. I enjoy designing and building end-to-end software solutions, combining clean code with efficient, scalable systems. I'm a motivated, organized, and responsible team player, always curious and excited to dive into tough problems and find creative solutions through data-driven technologies.
 
 If you're interested in my work or potential collaborations, feel free to reach out to me at [luissoto.personal@gmail.com](mailto:luissoto.personal@gmail.com).
 
